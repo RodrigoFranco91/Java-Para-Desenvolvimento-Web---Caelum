@@ -83,7 +83,7 @@ public class ContatoDao {
 	}
 	
 	public void deleta(Contato c){
-		String sql = "DELETE FROM Contatos WHERE id=?";
+		String sql = "DELETE FROM CONTATOS WHERE id=?";
 		try {
 			PreparedStatement ps = connection.prepareStatement(sql);
 			ps.setLong(1, c.getId());

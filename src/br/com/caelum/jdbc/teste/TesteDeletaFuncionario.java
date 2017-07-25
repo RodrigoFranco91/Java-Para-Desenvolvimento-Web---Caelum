@@ -6,7 +6,7 @@ import br.com.caelum.jdbc.modelo.Funcionario;
 public class TesteDeletaFuncionario {
 	public static void main(String[] args) {
 		Funcionario f = new Funcionario();
-		f.setId(3L);
+		f.setId(2L);
 
 		FuncionarioDao dao = new FuncionarioDao();
 		dao.deleta(f);

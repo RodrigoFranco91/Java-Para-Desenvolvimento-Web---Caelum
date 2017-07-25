@@ -9,7 +9,7 @@ public class TesteAlteraContato {
 	public static void main(String[] args) {
 		Contato c = new  Contato();
 		c.setId(2L);
-		c.setNome("Taciana Cristina da Silva");
+		c.setNome("Taciana Cristina da Silva69");
 		c.setEmail("TacianaCristina@gmail.com");
 		c.setEndereco("Rua Miguel Saponara");
 		c.setDataNascimento(Calendar.getInstance());

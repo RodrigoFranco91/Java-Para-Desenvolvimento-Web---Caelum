@@ -14,7 +14,7 @@ public class TesteListaContato {
 			System.out.println("ID = " + aux.getId());
 			System.out.println("Nome = " + aux.getNome());
 			System.out.println("Email = " + aux.getEmail());
-			System.out.println("Endereço = " + aux.getEndereco());
+			System.out.println("EndereÃ§o = " + aux.getEndereco());
 			System.out.println("Data de Nascimento = " + aux.getDataNascimento().getTime() + "\n");
 			
 		}

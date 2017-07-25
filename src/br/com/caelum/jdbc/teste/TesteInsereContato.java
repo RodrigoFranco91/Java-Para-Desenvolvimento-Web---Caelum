@@ -8,7 +8,7 @@ import br.com.caelum.jdbc.modelo.Contato;
 public class TesteInsereContato {
 	public static void main(String[] args) {
 		Contato c = new Contato();
-		c.setNome("Taciana Cristina");
+		c.setNome("Taciana Cristina2");
 		c.setEmail("tatha@gmail.com");
 		c.setEndereco("Rua Mariana Jacinta");
 		c.setDataNascimento(Calendar.getInstance());

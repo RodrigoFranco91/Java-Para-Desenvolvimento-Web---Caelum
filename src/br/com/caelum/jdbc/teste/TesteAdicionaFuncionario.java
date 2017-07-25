@@ -6,7 +6,7 @@ import br.com.caelum.jdbc.modelo.Funcionario;
 public class TesteAdicionaFuncionario {
 	public static void main(String[] args) {
 		Funcionario f = new Funcionario();
-		f.setNome("Marlene");
+		f.setNome("Marlene2");
 		f.setUsuario("Mah");
 		f.setSenha("963");
 		
